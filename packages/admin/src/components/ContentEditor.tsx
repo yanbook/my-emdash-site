@@ -952,6 +952,7 @@ function FieldRenderer({
 	onBlockSidebarClose,
 	manifest,
 }: FieldRendererProps) {
+	const t = useT();
 	const pluginAdmins = usePluginAdmins();
 	const label = field.label || name.charAt(0).toUpperCase() + name.slice(1);
 	const id = `field-${name}`;

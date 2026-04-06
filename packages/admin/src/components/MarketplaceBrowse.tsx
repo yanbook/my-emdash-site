@@ -217,6 +217,7 @@ interface PluginCardProps {
 }
 
 function PluginCard({ plugin, isInstalled }: PluginCardProps) {
+	const t = useT();
 	const navigate = useNavigate();
 	const auditVerdict = plugin.latestVersion?.audit?.verdict;
 	const imageVerdict = plugin.latestVersion?.imageAudit?.verdict;
