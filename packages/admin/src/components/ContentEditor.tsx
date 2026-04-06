@@ -1189,6 +1189,7 @@ interface ImageFieldRendererProps {
 }
 
 function ImageFieldRenderer({ label, value, onChange, required }: ImageFieldRendererProps) {
+	const t = useT();
 	const [pickerOpen, setPickerOpen] = React.useState(false);
 	// Normalize value to get display URL (handles both object and legacy string)
 	// Prefer previewUrl for admin display, fall back to src, then derive from storageKey/id
