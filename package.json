@@ -13,11 +13,11 @@
 	"dependencies": {
 		"@astrojs/cloudflare": "^13.1.6",
 		"@astrojs/react": "^5.0.0",
-    "@emdash-cms/cloudflare": "^0.1.0",
-    "@emdash-cms/plugin-forms": "^0.1.0",
-    "@emdash-cms/plugin-webhook-notifier": "^0.1.0",
+    "@emdash-cms/cloudflare": "workspace:*",
+    "@emdash-cms/plugin-forms": "workspace:*",
+    "@emdash-cms/plugin-webhook-notifier": "workspace:*",
 		"astro": "^6.1.2",
-    "emdash": "^0.1.0",
+    "emdash": "workspace:*",
 		"react": "^19.2.4",
 		"react-dom": "^19.2.4"
 	},

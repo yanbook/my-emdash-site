@@ -4,3 +4,6 @@ dist
 uploads
 data.db
 .wrangler
+# Environment (secrets)
+.env.local
+.env*
