@@ -7,3 +7,4 @@ data.db
 # Environment (secrets)
 .env.local
 .env*
+private/
